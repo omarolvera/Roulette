@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { RouletteComponent } from './roulette/roulette.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RouletteComponent
   ],
   imports: [
     BrowserModule
