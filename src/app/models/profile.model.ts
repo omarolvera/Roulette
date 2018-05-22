@@ -1,4 +1,4 @@
-export interface TypeOfLetter {
+export interface Card {
   name: string;
   attribute1: number;
   attribute2: number;
