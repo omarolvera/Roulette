@@ -11,14 +11,14 @@ export interface Profile {
   sueldo: number;
   creditos: number;
   pasivos: number;
-  iActivos: number;
+  activos: number;
   creditScore: number;
   progress: number;
 }
 
 export interface Stats {
   disponible: number;
-  pasivo: number;
+  pasivos: number;
   activos: number;
   flujoNeto: number;
   nextTurns: number;
