@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+body{   
+    background-color: #0292b6;        
+    }         
+canvas{
+    border: 1px solid darkred;
+    margin: 5px auto;
+    display: block;
+}
+
+@import url('assets/buttons.scss');
+
+[gradient] {
+    background-color: #0292b6;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMwMGM0ZjQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzAzNjA3OCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%,color-stop(0, rgb(0, 196, 244)),color-stop(1, rgb(3, 96, 120)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(top left,rgb(0, 196, 244) 0%,rgb(3, 96, 120) 100%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(to bottom right,rgb(0, 196, 244) 0%,rgb(3, 96, 120) 100%);
+    background-image: -ms-repeating-linear-gradient(top left,rgb(0, 196, 244) 0%,rgb(3, 96, 120) 100%);
+}
+ 

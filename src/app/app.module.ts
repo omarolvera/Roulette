@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { RouletteComponent } from './roulette/roulette.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    RouletteComponent
+    RouletteComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule

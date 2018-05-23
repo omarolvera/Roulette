@@ -1,0 +1,40 @@
+.btn{
+    border: none;
+  
+}
+.btn-primary{
+    background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+}
+.btn-success{
+background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
+}
+.btn-danger{
+    background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+}
+.btn-info{
+    background: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+
+.btn-info:not(:disabled):not(.disabled).active:focus,
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.show>.btn-info.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(243,243,243,.5) !important;
+}
+
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(243,243,243,.5)!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(243,243,243,.5)!important;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show>.btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(243,243,243,.5)!important;
+}
