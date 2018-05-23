@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { TypeOfLetter } from '../models/profile/profile.model';
 import { Card } from '../models/card/card.model';
 
 @Injectable()
