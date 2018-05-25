@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { RouletteComponent } from './roulette/roulette.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { CardDataService } from './shared/data.service';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [CardDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

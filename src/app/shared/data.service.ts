@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { Card } from '../models/card/card.model';
 
 @Injectable()
-export class DataService {
- letters: Card[] = [
+export class CardDataService {
+ cards: Card[] = [
   {
     name: 'Mercado',
     cardList: [
@@ -204,9 +204,9 @@ export class DataService {
 
 ];
 
-lettersInfo: any[];
+public cardNames: any[];
   constructor() {
-this.lettersInfo = this.letters.map((item) => item.name);
+this.cardNames = this.cards.map((item) => item.name);
   }
 
 public getProfileData() {
